@@ -22,9 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="com.panther.designpattern" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.panther.designpattern" target="1.6" />
       <module name="patterndesign" target="1.5" />
     </bytecodeTargetLevel>
   </component>
